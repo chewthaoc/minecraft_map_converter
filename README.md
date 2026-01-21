@@ -31,14 +31,14 @@ library.
 
 ### ✨ Features
 
-| Feature                | Description                                                                  |
-| :--------------------- | :--------------------------------------------------------------------------- |
-| 🔄 **Bidirectional**   | Seamless **Java ↔ Bedrock** world conversion                                |
-| 🔀 **Version Switch**  | Upgrade or downgrade within the same platform (e.g., Java 1.20 → Java 1.16) |
+| Feature                 | Description                                                                 |
+| :---------------------- | :-------------------------------------------------------------------------- |
+| 🔄 **Bidirectional**    | Seamless **Java ↔ Bedrock** world conversion                                |
+| 🔀 **Version Switch**   | Upgrade or downgrade within the same platform (e.g., Java 1.20 → Java 1.16) |
 | 📦 **Batch Processing** | Import multiple worlds and convert them in one run                          |
-| 🛠️ **Repair Mode**     | “Force Repair” re-saves chunks to fix corrupted data                        |
-| 🎯 **Target Version**  | Choose exact versions (e.g., `1.20.1`, `1.19`)                               |
-| 🖥️ **GUI**             | Clean GUI with real-time logs, no CLI required                              |
+| 🛠️ **Repair Mode**      | “Force Repair” re-saves chunks to fix corrupted data                        |
+| 🎯 **Target Version**   | Choose exact versions (e.g., `1.20.1`, `1.19`)                              |
+| 🖥️ **GUI**              | Clean GUI with real-time logs, no CLI required                              |
 
 ### 🚀 Quick Start
 
@@ -126,4 +126,3 @@ If this project helps you, please consider:
 - 🐛 Opening an Issue
 - 🔀 Submitting a Pull Request
 - 📢 Sharing it with others
-
