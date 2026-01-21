@@ -1,13 +1,26 @@
 # 🌍 Minecraft World Converter (存档转换器)
 
-![Version](https://img.shields.io/badge/version-0.1.0-blue)
-![Python](https://img.shields.io/badge/python-3.11-yellow)
+<div align="center">
+
+![Version](https://img.shields.io/badge/version-0.2.0-blue)
+![Python](https://img.shields.io/badge/python-3.10%20%7C%203.11-yellow)
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
 ![License](https://img.shields.io/badge/license-MIT-green)
+![GitHub Stars](https://img.shields.io/github/stars/chewthaoc/minecraft_convert?style=social)
+![GitHub Forks](https://img.shields.io/github/forks/chewthaoc/minecraft_convert?style=social)
+
+</div>
 
 这是一个基于 Python 和 Tkinter 构建的现代化桌面工具，旨在简化 **Minecraft
 Java版** 与 **基岩版 (Bedrock)** 之间的存档转换流程。核心基于强大的
 [Amulet Core](https://github.com/Amulet-Team/Amulet-Core) 库开发。
+
+<div align="center">
+
+![Screenshot](https://img.shields.io/badge/UI-Modern%20%7C%20Intuitive-success)
+![Downloads](https://img.shields.io/github/downloads/chewthaoc/minecraft_convert/total)
+
+</div>
 
 ---
 
@@ -86,3 +99,23 @@ pyinstaller --noconsole --onefile --name mcconvert --paths src --collect-all amu
 ## 📝 开源协议
 
 MIT License. 本工具基于 Amulet-Core 开发，使用请遵循其开源协议。
+
+---
+
+## 📊 Star History
+
+<div align="center">
+
+[![Star History Chart](https://api.star-history.com/svg?repos=chewthaoc/minecraft_convert&type=Date)](https://star-history.com/#chewthaoc/minecraft_convert&Date)
+
+</div>
+
+---
+
+## 💖 支持项目
+
+如果这个项目对您有帮助，欢迎：
+- ⭐ 给项目点个 Star
+- 🐛 提交 Issue 反馈问题
+- 🔀 Fork 并提交 Pull Request
+- 📢 分享给更多需要的朋友
