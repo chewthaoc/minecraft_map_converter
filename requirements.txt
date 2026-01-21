@@ -1,0 +1,2 @@
+amulet-core
+pyinstaller

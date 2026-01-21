@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Virtual environments
+.venv/
+.venv311/
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# OS / tooling
+.env
+.vscode/
