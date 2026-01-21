@@ -21,8 +21,8 @@ from .converter import (
 
 class App(ttk.Frame):
     def __init__(self, master: ttk.Window) -> None:
-        super().__init__(master, padding=20)
-        self.pack(fill=BOTH, expand=YES)
+        super().__init__(master)
+        self.pack(fill=BOTH, expand=YES, padx=20, pady=20)
         
         # Configuration
         self.master = master
@@ -75,18 +75,18 @@ class App(ttk.Frame):
         self.notebook.pack(fill=BOTH, expand=YES, pady=(0, 20))
 
         # Tab 1: Single Mode
-        self.tab_single = ttk.Frame(self.notebook, padding=15)
+        self.tab_single = ttk.Frame(self.notebook)
         self.notebook.add(self.tab_single, text=" 单个模式 (Single) ")
         self._setup_single_tab()
 
         # Tab 2: Batch Mode
-        self.tab_batch = ttk.Frame(self.notebook, padding=15)
+        self.tab_batch = ttk.Frame(self.notebook)
         self.notebook.add(self.tab_batch, text=" 批量模式 (Batch) ")
         self._setup_batch_tab()
 
         # --- Settings/Log Area ---
         # Shared Log Area at bottom
-        log_frame = ttk.LabelFrame(self, text="系统日志 (System Log)", padding=10, bootstyle=INFO)
+        log_frame = ttk.LabelFrame(self, text="系统日志 (System Log)", bootstyle=INFO)
         log_frame.pack(fill=BOTH, expand=YES)
         
         self.log_text = ScrolledText(log_frame, height=8, autohide=True, bootstyle="round")
@@ -105,7 +105,7 @@ class App(ttk.Frame):
         self.notebook.pack(fill=BOTH, expand=YES, pady=10)
 
     def _setup_global_options(self) -> None:
-        opt_container = ttk.LabelFrame(self, text="转换设置 (Settings)", padding=15, bootstyle=PRIMARY)
+        opt_container = ttk.LabelFrame(self, text="转换设置 (Settings)", bootstyle=PRIMARY)
         opt_container.pack(fill=X)
 
         # Grid layout for options
